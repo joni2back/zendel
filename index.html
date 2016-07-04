@@ -34,32 +34,32 @@
 
 </head>
 
-<body id="page-top"> 
+<body id="main"> 
 
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span> <i class="glyphicon glyphicon-option-vertical"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Zendel Solutions</a>
+                <a class="navbar-brand page-scroll" href="#main">Zendel Solutions</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#nosotros">Nosotros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -72,27 +72,29 @@
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Hacemos software, Creamos apps</h1>
-                <hr>
-                <p>Nos encargamos de darle vida a tus ideas!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Quienes somos?</a>
+                <div class="hide">
+                    <hr>
+                    <p>Nos encargamos de darle vida a tus ideas!</p>
+                    <a href="#nosotros" class="btn btn-primary btn-xl page-scroll">Quienes somos?</a>
+                </div>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="nosotros">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Tenemos lo que necesitas!</h2>
                     <hr class="light">
                     <p class="text-faded">Somos una empresa joven y nos especializamos en aplicaciones mobiles, desarrollo web y sistemas a medida. Hemos trabajado con grandes clientes, como BuenosAires.gob.ar y Telecom</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Contactanos!</a>
+                    <a href="#contacto" class="page-scroll btn btn-default btn-xl sr-button">Contactanos!</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
+    <section id="servicios">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -107,35 +109,35 @@
                     <div class="service-box">
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
                         <h3>Analizamos</h3>
-                        <p class="text-muted">el proyecto.</p>
+                        <p class="text-muted">el proyecto y todas sus caracteristicas</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
                         <h3>Desarrollamos</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
+                        <p class="text-muted">transformamos la idea en codigo y visuales</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
                         <h3>Probamos</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
+                        <p class="text-muted">el producto para obtener la mejor usabilidad</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
                         <h3>Ponemos en marcha</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
+                        <p class="text-muted">la idea que cobro vida con esfuerzo y pasion!</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="no-padding" id="portfolio">
+    <!--
+    <section class="no-padding hide" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -232,7 +234,7 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
+    <aside class="bg-dark hide">
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Free Download at Start Bootstrap!</h2>
@@ -240,22 +242,30 @@
             </div>
         </div>
     </aside>
-
-    <section id="contact">
+    -->
+    <section id="contacto">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <h2 class="section-heading">Pongamonos en contacto!</h2>
                     <hr class="primary">
-                    <p>Estas listo para arrancar tu nuevo proyecto con nosotros? Barbaro! Llamanos o envianos un mensaje para poder darte feedback lo antes posible!</p>
+                    <p>Estas listo para arrancar tu nuevo proyecto con nosotros? Barbaro! Envianos un mensaje para poder darte un feedback lo antes posible!</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
+            </div>
+            <div class="row contact-section">
+                <div class="col-lg-4 text-center hide">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>+54-341-3261515</p>
+                    <p>+54-341-</p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-12 text-center">
+                    <a href="https://www.facebook.com/ZendelSolutions/" target="_blank">
+                        <i class="fa fa-facebook fa-3x sr-contact"></i>
+                        <p>ZendelSolutions</p>
+                    </a>
+                </div>                
+                <div class="col-lg-4 text-center hide">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:info@zendelsolutions.com">info@zendelsolutions.com</a></p>
+                    <p><a href="mailto:"></a></p>
                 </div>
             </div>
         </div>
